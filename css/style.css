@@ -25,6 +25,11 @@ body {
     text-decoration: none;
 }
 
+.header a:hover,
+.header a.active{
+    text-decoration: underline;
+}
+
 .logo {
     color: black;
     font-size: 3em;
@@ -143,7 +148,7 @@ figcaption {
     font-weight: 700;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: end;
-    
+
 
 }
 
@@ -151,4 +156,33 @@ figcaption {
     color: white;
     text-decoration: none;
 
+}
+
+.footer h4 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    text-align: center;
+    margin-right: 150px;
+    margin-left: 0px;
+    display: inline-block;
+
+}
+
+.footer h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-right: 250px;
+    margin-left: 200px;
+    display: inline-block;
+
+}
+
+.footer a {
+    color: #000;
+    text-decoration: none;
+    margin-left: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
 }
