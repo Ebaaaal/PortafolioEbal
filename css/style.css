@@ -172,7 +172,6 @@ figcaption {
     text-align: center;
     margin-top: 70px;
     margin-right: 150px;
-    margin-left: 0px;
     display: inline-block;
 
 }
@@ -213,21 +212,30 @@ figcaption {
 }
 
 .grid-item {
-    margin-top: 50px;
+    margin-top: 60px;
     border-radius: 40px;
-    border: 8px solid black;
+    border: 10px solid black;
+    padding-bottom: 26px;
 }
 
 .grid-item img{
-    margin: 0px 0px 10px -6px;
+    margin: 0px 0px 0px -6px;
+    
     width: 300px;
     height: 300px;
 }
+.grid-item h1{
+    text-align: justify;
+    margin-left: 900px;
+    margin-top: -300px;
+    
+}
 .grid-item p{
     text-align: justify;
-    margin-left: 895px;
-    margin-top: -230px;
-    padding-right: 10px;
+    margin-left: 897px;
+    margin-top: 0px;
+    padding-right: 5px;
+    font-size: large;
     width: 230px;
     height: 200px;
 }
@@ -235,7 +243,7 @@ figcaption {
     position: absolute;
     text-align: center;
     margin-left: 980px;
-    margin-top: -50px;
+    margin-top: -20px;
     border: 3px solid#000;
     font-size: large;
     color: black;
@@ -250,4 +258,9 @@ figcaption {
     text-decoration: underline;
 }
 
+.images {
+   border-top-left-radius: 30px;
+   border-end-start-radius: 30px;
+   padding-left: 5px;
+}
 
