@@ -65,7 +65,6 @@ body {
 .computer {
     width: 1903px;
     height: 700px;
-    
 
 }
 
@@ -110,6 +109,10 @@ figcaption {
 
 }
 
+.content figcaption {
+    margin-bottom: 50px;
+
+}
 
 .figure h4 {
     margin-top: -41px;
@@ -167,6 +170,7 @@ figcaption {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 40px;
     text-align: center;
+    margin-top: 70px;
     margin-right: 150px;
     margin-left: 0px;
     display: inline-block;
@@ -177,7 +181,7 @@ figcaption {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 20px;
     text-align: center;
-    margin-right: 250px;
+    margin-right: 180px;
     margin-left: 200px;
     display: inline-block;
 
@@ -201,3 +205,49 @@ figcaption {
     padding: 10px;
     font-size: 100px;
 }
+
+.container-grid {
+    display:grid;
+    justify-content: center;
+
+}
+
+.grid-item {
+    margin-top: 50px;
+    border-radius: 40px;
+    border: 8px solid black;
+}
+
+.grid-item img{
+    margin: 0px 0px 10px -6px;
+    width: 300px;
+    height: 300px;
+}
+.grid-item p{
+    text-align: justify;
+    margin-left: 895px;
+    margin-top: -230px;
+    padding-right: 10px;
+    width: 230px;
+    height: 200px;
+}
+.grid-item a{
+    position: absolute;
+    text-align: center;
+    margin-left: 980px;
+    margin-top: -50px;
+    border: 3px solid#000;
+    font-size: large;
+    color: black;
+    text-decoration: none;
+    border-radius: 10px;
+    border-color: teal;
+    padding: 5px;
+}
+
+.grid-item a:hover {
+    text-underline-offset: 5px;
+    text-decoration: underline;
+}
+
+
